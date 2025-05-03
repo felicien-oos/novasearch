@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaSearch</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #ffffff;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        header img {
+            width: 100px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .search-container {
+            margin-top: 50px;
+        }
+        .search-bar {
+            width: 60%;
+            padding: 10px;
+            border-radius: 20px;
+            border: 1px solid #ccc;
+            font-size: 18px;
+        }
+        .ads-container, .recommendations {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        .ads-container h3, .recommendations h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .links-footer {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #fff;
+            display: flex;
+            justify-content: space-around;
+            border-top: 1px solid #ccc;
+        }
+        .link-item {
+            font-size: 16px;
+            text-decoration: none;
+            color: #000;
+        }
+        .plus-btn {
+            font-size: 16px;
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="ton-logo.png" alt="Logo NovaSearch">
+    Bienvenue chez NovaSearch, que puis-je faire pour vous ?
+</header>
+
+<div class="search-container">
+    <input type="text" class="search-bar" placeholder="Recherche Google..." id="search-input">
+</div>
+
+<div class="ads-container">
+    <h3>Publicités</h3>
+    <p>Ici, vous verrez des annonces sponsorisées.</p>
+</div>
+
+<div class="recommendations">
+    <h3>Recommandations</h3>
+    <p>Voici quelques recommandations basées sur votre historique.</p>
+</div>
+
+<div class="links-footer">
+    <a href="https://www.youtube.com" class="link-item">YouTube</a>
+    <a href="https://www.facebook.com" class="link-item">Facebook</a>
+    <a href="https://www.instagram.com" class="link-item">Instagram</a>
+    <button class="plus-btn" onclick="alert('Ajouter plus de liens')">Plus</button>
+</div>
+
+</body>
+</html>
